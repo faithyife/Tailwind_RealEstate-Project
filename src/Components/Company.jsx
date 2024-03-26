@@ -11,7 +11,7 @@ const Company = () => {
 
   return (
     <>
-      <div className="company flex items-center justify-center text-center py-[10rem] flex-col sm-max:pt-[2rem]">
+      <div className="company flex items-center justify-center text-center py-[10rem] flex-col sm-max:py-[3.5rem]">
   
         <div className='flex flex-col gap-10 relative'>
         <img src="./company_ellipse.png" alt="" className='absolute left-[3rem] top-[-3rem] h-[5rem] sm-max:hidden' />

@@ -36,21 +36,21 @@ const Room = ({ imagesrc, price, description, address, beds, baths, icon, text, 
 
 const Check = () => {
   return (
-    <div className="check flex flex-col items-center justify-center py-[4rem] gap-12">
-      <div className="checkView flex items-start justify-between max-w gap-[9rem] ">
-        <div>
+    <div className="check flex flex-col items-center justify-center py-[4rem] gap-12 sm-max:items-center sm-max:justify-center">
+      <div className="checkView flex items-start justify-between max-w gap-[9rem] sm-max:flex-col sm-max:gap-[1rem] sm-max:justify-center sm-max:items-center">
+        <div className='sm-max:flex sm-max:flex-1 sm-max:flex-col sm-max:items-center sm-max:justify-start'>
           <h3 className='text-[#4361EE] text-xl font-medium'>CHECKOUT OUR NEW</h3>
-          <h2 className='text-[#2B2B2B] text-[40px] font-semibold py-2'>Latest Listed Properties</h2>
-          <p className='w-[75%] text-[#64748B]'>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
+          <h2 className='text-[#2B2B2B] text-[40px] font-semibold py-2 sm-max:text-[16px]'>Latest Listed Properties</h2>
+          <p className='w-[75%] text-[#64748B] '>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
         </div>
-        <div className='btns max-w flex items-center justify-center gap-6 pt-12'>
+        <div className='btns max-w flex items-center justify-center gap-6 pt-12 sm-max:gap-2'>
           <button type="button" className='border-2 border-[#03AEFD] text-[#03AEFD] px-[30px] py-[11px] rounded-[2rem]'>All</button>
           <button type="button" className="set bg-[#03AEFD] px-[30px] py-[11px] rounded-[2rem] text-white">Set</button>
           <button type="button" className='border-2 border-[#03AEFD] text-[#03AEFD] px-[30px] py-[11px] rounded-[2rem]'>Rent</button>
         </div>
       </div>
       
-      <div className="rooms flex pl-[9rem] pb-[7rem]">
+      <div className="rooms flex pl-[9rem] pb-[7rem] sm-max:flex-col sm-max:items-center sm-max:justify-center sm-max:pl-[0] sm-max:gap-[2.5rem]">
         <Room
           imagesrc="./room1.jpeg"
           price="$ 5,970"
