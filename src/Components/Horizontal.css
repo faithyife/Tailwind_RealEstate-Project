@@ -1,0 +1,16 @@
+.horizontal-dot-wrapper {
+  margin-top: 30px;
+}
+.horizontal-dot {
+  width: 100px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #ccccccc6;
+  margin: 0 5px;
+  margin-top: 80px !important;
+  cursor: pointer;
+}
+
+.horizontal-dot.active {
+  background-color: white;
+}

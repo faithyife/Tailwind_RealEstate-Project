@@ -1,0 +1,115 @@
+
+.selectForm select,
+.selectForm input{
+  border:none;
+  color: #6D6A7580;
+  padding:1.2rem 1rem;
+  border-radius: 1rem;
+  /* background: #f3eeee5c; */
+}
+.selectForm select:focus{
+  border:1px solid #03AEFD;
+}
+.hr,
+.hr-link,
+.card-carousel,
+.hero{
+  position: relative;
+}
+
+.hr::before {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top:5rem;
+  left: 0;
+  right: 0;
+  background-color:#6D6A7580;
+}
+
+.hr-link::before {
+  content: '';
+  display: block;
+  height:3px;
+  width:250%;
+  position: absolute;
+  top:2.95rem;
+  left:-2.9rem;
+  right: 0;
+  background-color:#03AEFD;
+}
+.card-carousel button{
+  width: 100px;
+  height: 4px;
+}
+
+.card-carousel .Ellipse-carousel{
+  position: absolute;
+  right: -2rem;
+  top: 0.5rem;
+}
+.bottom-5 {
+  bottom:1.5rem;
+}
+/* .card-carousel span{
+
+} */
+.hero .people{
+  position: absolute;
+  bottom:-2rem;
+}
+
+@media(max-width:768px){
+  .hero{
+    position: relative;
+    border-bottom-left-radius:500px;
+    border-bottom-right-radius:500px;
+  }
+  .hero::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: linear-gradient(to bottom, rgba(76,201,240,0), rgba(67,97,238,0.44));
+    z-index: -1;
+    border-bottom-left-radius:500px;
+    border-bottom-right-radius:500px;
+    top: -18rem;
+  }
+
+  .card-carousel .Ellipse-carousel{
+    right:2rem;
+    top: -2rem;
+  }
+  
+  .bottom-5 {
+    bottom: -1.5rem;
+  }
+  
+}
+
+@media(max-width:470px){
+  .hero{
+    padding: 0.5rem 0;
+  }
+  .card-carousel .Ellipse-carousel{
+    top: -4rem;
+  }
+  .card-carousel button{
+    width: 50px;
+    height: 4px;
+  }
+  .bottom-5 {
+    bottom: -5.5rem;
+  }
+  
+}
+@media(max-width:380px){
+  .hr-link::before {
+    width:180%;
+    left:-2rem;
+  }
+  
+}

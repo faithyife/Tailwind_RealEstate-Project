@@ -1,0 +1,14 @@
+.prop-md {
+  position: relative;
+}
+
+.prop-md:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}

@@ -1,0 +1,6 @@
+.boxes{
+  box-shadow: rgba(247, 247, 247, 0.666) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.circle-sm{
+  box-shadow: #4361EE 0px 20px 30px -18px;
+}
