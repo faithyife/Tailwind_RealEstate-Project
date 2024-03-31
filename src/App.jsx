@@ -1,41 +1,42 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import Navibar from "./Components/Navibar";
-import Header from "./Components/Header";
+import Navbartwo from "./Components/Navbartwo";
+import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Company from "./Components/Company";
-import Whoare from "./Components/Whoare";
+import Section_www from "./Components/Section_www";
 import Check from "./Components/Check";
-import Service from "./Components/Service";
-import Properties from "./Components/Properties";
+import OurService from "./Components/OurService";
+import ListedProps from "./Components/ListedProps";
 import Teams from "./Components/Teams";
-import Blog from "./Components/Blog";
-import Footers from "./Components/Footers";
-import TestimonialSlider from "./Components/TestimonialSlider";
+import BlogPost from "./Components/BlogPost";
+import Footer from "./Components/Footer"; // Removed duplicate import
+import Section from "./Components/Section";
 import Banner from "./Components/Banner";
+// Removed duplicate import
+// import { Footer, Navbar } from "flowbite-react"; 
 
 const App = () => {
   return (
     <Router>
       <>
-        <Header />
-        <Navibar />
+        <Navbar />
+        <Navbartwo />
         <Hero />
         <Company />
-        <Whoare />
+        <Section_www />
         <Check />
-        <Service />
-        <Properties />
-
-        {/* 
-        
+        <OurService />
+        <ListedProps />
+        <Footer />
         <Teams />
         <Blog />
-        <TestimonialSlider />
+        <Section />
         <Banner/>
-        <Footers /> */}
+        <Footer /> 
       </>
     </Router>
   );
 };
 
 export default App;
+

@@ -1,9 +1,9 @@
 import { Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { HiOutlineUserCircle } from "react-icons/hi";
-import "./Navibar.css";
 
-const Navibar = () => {
+
+const Navbartwo = () => {
   return (
     <Navbar fluid className="navbars sticky top-0 z-[1000] bg-white lg:shadow-none sm-max:shadow">
       <div className="navTop flex items-center justify-between w-full lg:px-[7rem] sm-max:px-[0]">
@@ -70,4 +70,4 @@ const Navibar = () => {
   );
 };
 
-export default Navibar;
+export default Navbartwo;

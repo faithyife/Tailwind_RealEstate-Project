@@ -3,9 +3,8 @@ import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
-import "./Footers.css";
 
-const Footers = () => {
+const Footer = () => {
   return (
     <>
       <div className="bg-[#eceffd]">
@@ -123,4 +122,4 @@ const Footers = () => {
   );
 };
 
-export default Footers;
+export default Footer;

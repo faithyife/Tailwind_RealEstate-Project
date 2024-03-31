@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import './Check.css';
 
 // eslint-disable-next-line react/prop-types
 const Room = ({ imagesrc, price, description, address, beds, baths, icon, text, bgColor, textColor }) => {

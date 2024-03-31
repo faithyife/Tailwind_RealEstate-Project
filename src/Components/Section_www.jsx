@@ -1,6 +1,5 @@
-import "./Whoare.css";
 
-const Whoare = () => {
+const Section_www = () => {
   return (
     <>
       <div className="whoare flex items-center justify-center w-full gap-[3rem] mb-20 sm-max:flex-col sm-max:items-center ">
@@ -109,4 +108,4 @@ const Whoare = () => {
   );
 };
 
-export default Whoare;
+export default Section_www;

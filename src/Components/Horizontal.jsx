@@ -1,5 +1,5 @@
 import React from "react";
-import "./Horizontal.css";
+
 
 const Horizontal = ({ active, onClick }) => {
   return (

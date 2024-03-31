@@ -5,9 +5,8 @@ import testimony1 from "/testimony1.jpeg";
 import testimony2 from "/testimony2.jpeg";
 import testimony3 from "/testimony3.jpeg";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
-import "./TestimonialSlider.css";
 
-const TestimonialSlider = () => {
+const Section = () => {
   const testimonialData = [
     {
       quote: quote,
@@ -157,4 +156,4 @@ const TestimonialSlider = () => {
   );
 };
 
-export default TestimonialSlider;
+export default Section;

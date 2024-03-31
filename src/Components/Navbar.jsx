@@ -1,8 +1,7 @@
 import { GoLocation } from "react-icons/go";
 import { AiOutlinePhone } from "react-icons/ai";
 import { IoMailOutline } from "react-icons/io5";
-import './Header.css';
-const Header = () => {
+const Navbar = () => {
   return (
     <>
       <div className="header-bar lg:block bg-[#03AEFD] py-4 px-[8rem] w-full">
@@ -27,4 +26,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navbar

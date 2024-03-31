@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import BlogCard from "./BlogCard";
 
-const Blog = () => {
+const BlogPost = () => {
   // State to manage current slides
   const [currentSlides, setCurrentSlides] = useState([0, 1, 2]);
 
@@ -90,4 +90,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default BlogPost;

@@ -1,6 +1,5 @@
-import './Properties.css'; // Assuming you have a CSS file named Properties.css for styling
 
-const Properties = () => {
+const ListedProps = () => {
   return (
     <>
       <div className='py-[12rem] flex flex-col gap-10 relative sm-max:flex sm-max:items-center sm-max:justify-center'>
@@ -73,4 +72,4 @@ const Properties = () => {
   );
 };
 
-export default Properties;
+export default ListedProps;
